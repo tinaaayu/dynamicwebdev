@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome <%= userName %></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .food-highlight {
+            padding: 15px;
+            background-color: #fff3cd;
+            border-radius: 8px;
+            border: 2px solid #ffc107;
+            display: inline-block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to the kitchen, <%= userName %>!</h1>
+    <p>your favorite food is: 
+        <div class="food-highlight"><strong><%= favoriteFood %></strong></div>
+    </p>
+    <p>you might want to explore: <strong><%= cuisine %></strong> cuisine today!</p>
+    
+    <hr>
+    <p><a href="/">back to home</a></p>
+</body>
+</html>

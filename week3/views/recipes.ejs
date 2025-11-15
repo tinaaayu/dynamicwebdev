@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>recipe collection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>our recipe collection</h1>
+    <h3>delicious recipes from our community! thank you so much if you've helped contribute <3</h3>
+
+    <% if (myRecipes.length === 0) { %>
+        <p>no recipes yet! <a href="/">share one now</a></p>
+    <% } else { %>
+        <% for (let i = 0; i < myRecipes.length; i++) {
+            let r = myRecipes[i];
+        %>
+            <div class="recipe-card"> 
+                <strong>Recipe #<%= i + 1 %>:</strong>
+                <%= r %>
+            </div>
+        <% } %>
+    <% } %>
+
+    <hr>
+    <p><a href="/">back to home</a></p>
+</body>
+</html>
