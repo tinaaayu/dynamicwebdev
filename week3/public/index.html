@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>om nom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>om nom nom </h1>
+    <p>share your favorite recipes with our community!</p>
+
+    <h2>share a recipe</h2>
+    <form method="post" action="/shareRecipe">
+        <input type="text" placeholder="enter your recipe here..." name="recipe" size="50" />
+        <button type="submit">share recipe</button>
+    </form>
+
+    <hr>
+
+    <h2>search for recipes</h2>
+    <form method="get" action="/search">
+        <input type="text" placeholder="search by ingredient..." name="q" />
+        <button type="submit">search</button>
+    </form>
+
+    <hr>
+
+    <h2>personalized food rec</h2>
+    <form method="get" action="/welcome">
+        <input type="text" placeholder="your name..." name="userName" />
+        <input type="text" placeholder="your favorite food..." name="favoriteFood" />
+        <button type="submit">get food rec</button>
+    </form>
+
+    <hr>
+
+    <p><a href="/recipes">view all shared recipes</a></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
