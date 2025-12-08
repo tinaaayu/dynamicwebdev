@@ -1,0 +1,40 @@
+{
+  "rocks": [
+    {
+      "id": 1765176537911,
+      "name": "poopy",
+      "adoptedBy": "tina",
+      "type": "topaz",
+      "trait": "tough",
+      "image": "rock4.png",
+      "petCount": 29
+    },
+    {
+      "id": 1765176547459,
+      "name": "meow",
+      "adoptedBy": "tina",
+      "type": "sapphire",
+      "trait": "sassy",
+      "image": "rock3.png",
+      "petCount": 22
+    },
+    {
+      "id": 1765177005623,
+      "name": "moo moo",
+      "adoptedBy": "tina",
+      "type": "marble",
+      "trait": "mature",
+      "image": "rock7.png",
+      "petCount": 16
+    },
+    {
+      "id": 1765177108853,
+      "name": "Rocky-1765177108850",
+      "adoptedBy": "aiden",
+      "type": "marble",
+      "trait": "mature",
+      "image": "rock7.png",
+      "petCount": 7
+    }
+  ]
+}

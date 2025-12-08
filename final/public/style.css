@@ -1,0 +1,51 @@
+body {
+  background: #fafafa;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.zoo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.rock-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.rock-card img {
+  width: 120px;
+  height: auto;
+}
+
+.rock-card h3 {
+  margin: 10px 0 5px;
+}
+
+.pet-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pet-btn:hover {
+  background: #444;
+}
